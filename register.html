@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+	<header>
+		<h1>REGISTRATION <img src="images/register.gif" alt="register" height="50"></h1>
+	</header>
+	<nav>
+		<hr>
+		<a href="index.html"><img src="images/home.gif" alt="home" height="50"></a>&emsp;
+		<a href="otherJournals.html"><img src="images/other.gif" alt="otherJournals" height="50"></a>&emsp;
+		<hr>
+	</nav>
+	<div>
+		<form method = "GET">
+			<br>
+			FirstName: <input type="text" name="firstname" required><br><br>
+			LastName: <input type="text" name="lastname" required><br><br>
+			Date of Birth: <input type="date" name="dob" required><br><br>
+			Email ID: <input type="email" name="email" required><br><br>
+			Gender: <input type="radio" name="gender" value = "male">Male <input type="radio" name="gender" value = "female">Female <input type="radio" name="gender" value = "other">Other<br><br>
+			Type of Submissions: <input type="checkbox" name="Paper">Paper <input type="checkbox" name="Electronic">Electronic<br><br> 
+			Type of Journal: 
+			<select name="journal">
+				<option value="--Select--">Select</option>
+				<option value="International Security">International Security</option>
+				<option value="Journal of Information Security and Applications">Journal of Information Security and Applications</option>
+				<option value="Democracy and Security">Democracy and Security</option>
+				<option value="Security and Peace">Security and Peace</option>
+				<option value="Security Studies">Security Studies</option>
+				<option value="ISecurity Dialogue">Security Dialogue</option>
+				<option value="Intelligence and National Security">Intelligence and National Security</option>
+				<option value="Computer Law and Security Review">Computer Law and Security Review</option>
+				<option value="European Security">European Security</option>
+			</select><br><br>
+			Title of Submission: <input type="text" name="Title" required><br><br>
+			<input type="submit" value="Register">&emsp;
+			<input type="reset">
+		</form>
+	</div>
+	<br>
+	<footer>Copyrights ©  to Keerthi Koneru 2018</footer>
+</body>
+</html>
+
+<!--?firstname=fake&lastname=fake&dob=2018-03-14&email=fake%40kkma&gender=male&Paper=on&Electronic=on&journal=Democracy+and+Security&Title=Submission+Title-->
